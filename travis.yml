@@ -1,0 +1,19 @@
+language: node_js
+node_js:
+- "9.5.0"
+
+before script:
+    - npm install -g jasmine
+deploy:
+  provider: script
+  script: "heroku open"
+  skip_cleanup: true
+  on:
+    tags: true
+
+notifications:
+  email:
+    recipients:
+    - joulain@gmail.com
+    on_success: change
+    on_failure: always
