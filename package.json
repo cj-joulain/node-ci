@@ -1,10 +1,10 @@
 {
   "name": "cj-hello-world",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "hello world package",
   "main": "app.js",
   "scripts": {
-    "test": "jasmine app.spec.js"
+    "test": "jasmine spec/app.spec.js"
   },
   "author": "",
   "license": "ISC",
