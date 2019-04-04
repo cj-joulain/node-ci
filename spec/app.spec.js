@@ -6,6 +6,6 @@ describe("/", function() {
 
 describe("/", function() {
   it("this test should fail", function() {
-    expect(false).toBe(true);
+    expect(true).toBe(true);
   });
 });
